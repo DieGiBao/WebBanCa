@@ -1,0 +1,43 @@
+.parallax {
+  /* The image used */
+
+   /* Set a specific height */
+  height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.myContainer{
+	width: 565px;
+	height:353px;
+	margin: 14% auto;
+	
+}
+
+.myDivider{
+	margin: 50px 0 ;
+	width: 100%;
+}
+.myCart{
+	width: 60px;
+	height: 60px;
+	font-size: 30px;
+	position: fixed;
+	bottom: 10% ;
+	right: 5%;
+	z-index: 99;
+	background-color: pink;
+	border-radius: 50px;
+}
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  left: 18%;
+  top: 60%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
